@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BirdWatcher", "BirdWatcher.vcxproj", "{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Debug|ARM.Build.0 = Debug|ARM
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Debug|ARM64.Build.0 = Debug|ARM64
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Release|ARM.ActiveCfg = Release|ARM
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Release|ARM.Build.0 = Release|ARM
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Release|ARM.Deploy.0 = Release|ARM
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Release|ARM64.ActiveCfg = Release|ARM64
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Release|ARM64.Build.0 = Release|ARM64
+		{FDCDFB9D-75F0-401D-AB13-AA201E1C32D3}.Release|ARM64.Deploy.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE04AAC-D80C-4EE6-B935-C0CF243BA9D6}
+	EndGlobalSection
+EndGlobal
