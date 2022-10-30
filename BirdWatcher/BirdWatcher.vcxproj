@@ -66,9 +66,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="LightStateChanger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\include\wiringPi\2.32\wiringPi.h" />
+    <ClInclude Include="LightStateChanger.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

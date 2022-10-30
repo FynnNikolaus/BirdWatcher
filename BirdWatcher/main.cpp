@@ -1,19 +1,13 @@
-#include "../../../Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/include/wiringPi/2.32/wiringPi.h"
+#include "LightStateChanger.h"
 
-#define	LED	17
+using namespace watcher;
 
 int main(void)
 {
-	wiringPiSetupSys();
-
-	pinMode(LED, OUTPUT);
-
-	while (true)
-	{
-		digitalWrite(LED, HIGH);  // On
-		delay(500); // ms
-		digitalWrite(LED, LOW);	  // Off
-		delay(500);
-	}
+    LightStateChanger nightVision(17);
+    while (true)
+    {
+        nightVision.AutoLightControl();
+    }
 	return 0;
 }
